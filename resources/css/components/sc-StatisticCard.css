@@ -1,0 +1,35 @@
+/* sc-StatisticCard: converted from the Vue scoped styles. Classes are prefixed "sc-". */
+.sc-stat {
+    padding: var(--space-5);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.sc-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-muted);
+}
+.sc-label {
+    font-weight: var(--weight-medium);
+}
+.sc-icon {
+    color: var(--color-primary);
+}
+.sc-value {
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-semibold);
+    line-height: 1.1;
+}
+.sc-hint {
+    color: var(--color-text-muted);
+    font-size: var(--text-xs);
+}
+.sc-skeleton {
+    height: 32px;
+    width: 80px;
+    border-radius: var(--radius-sm);
+    background: var(--color-neutral-soft);
+}

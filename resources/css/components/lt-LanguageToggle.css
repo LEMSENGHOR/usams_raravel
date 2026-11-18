@@ -1,0 +1,5 @@
+/* lt-LanguageToggle: converted from the Vue scoped styles. Classes are prefixed "lt-". */
+.lt-toggle { display: inline-flex; padding: 2px; gap: 2px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); }
+.lt-opt { min-width: 40px; height: 34px; padding: 0 var(--space-2); border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--color-text-muted); font-weight: var(--weight-medium); }
+.lt-opt:hover:not(.lt-on) { background: var(--color-neutral-soft); color: var(--color-text); }
+.lt-opt.lt-on { background: var(--color-primary-soft); color: var(--color-success-text); }

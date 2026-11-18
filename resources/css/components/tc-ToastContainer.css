@@ -1,0 +1,10 @@
+/* tc-ToastContainer: converted from the Vue scoped styles. Classes are prefixed "tc-". */
+.tc-toasts { position: fixed; right: var(--space-4); bottom: var(--space-4); z-index: 200; display: grid; gap: var(--space-2); width: min(380px, calc(100vw - 2rem)); }
+.tc-toast { display: flex; gap: var(--space-3); align-items: flex-start; padding: var(--space-3) var(--space-4); box-shadow: var(--shadow-md); border-left: 4px solid var(--color-info); }
+.tc-toast-success { border-left-color: var(--color-success); }
+.tc-toast-success svg:first-child { color: var(--color-success); }
+.tc-toast-error { border-left-color: var(--color-danger); }
+.tc-toast-error svg:first-child { color: var(--color-danger); }
+.tc-body { flex: 1; display: grid; }
+.tc-body span { color: var(--color-text-muted); }
+.tc-close { border: 0; background: none; color: var(--color-text-muted); padding: var(--space-1); }

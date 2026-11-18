@@ -1,0 +1,4 @@
+/* ff-FormField: converted from the Vue scoped styles. Classes are prefixed "ff-". */
+.ff-row { display: flex; align-items: center; gap: var(--space-2); font-weight: var(--weight-medium); }
+.ff-area { height: auto; padding: var(--space-3); resize: vertical; }
+.ff-help { color: var(--color-text-muted); font-size: var(--text-xs); }

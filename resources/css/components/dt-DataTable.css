@@ -1,0 +1,9 @@
+/* dt-DataTable: converted from the Vue scoped styles. Classes are prefixed "dt-". */
+.dt-scroll { overflow-x: auto; }
+.dt-root table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.dt-root th { text-align: left; padding: var(--space-3) var(--space-4); font-weight: var(--weight-semibold); color: var(--color-text-muted); background: var(--color-bg); border-bottom: 1px solid var(--color-border); white-space: nowrap; }
+.dt-root td { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border); vertical-align: middle; }
+.dt-root tbody tr:last-child td { border-bottom: 0; }
+.dt-root tbody tr:hover { background: var(--color-row-hover); }
+.dt-actions-col { width: 1%; white-space: nowrap; }
+.dt-actions { display: flex; gap: var(--space-1); justify-content: flex-end; }

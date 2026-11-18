@@ -1,0 +1,15 @@
+/* sg-StatusSegmented: converted from the Vue scoped styles. Classes are prefixed "sg-". */
+.sg-seg { display: inline-flex; border: 1px solid var(--color-border-strong); border-radius: var(--radius-md); overflow: hidden; background: var(--color-surface); }
+.sg-opt { min-width: 44px; min-height: 44px; padding: 0 var(--space-3); border: 0; border-right: 1px solid var(--color-border); background: transparent; color: var(--color-text); font-weight: var(--weight-medium); }
+.sg-opt:last-child { border-right: 0; }
+.sg-opt:hover:not(:disabled):not(.sg-on) { background: var(--color-neutral-soft); }
+.sg-opt:disabled { cursor: default; color: var(--color-text-muted); }
+.sg-opt:focus-visible { position: relative; z-index: 1; }
+.sg-full { display: none; }
+.sg-on.sg-t-success { background: var(--color-success); color: var(--color-on-accent); }
+.sg-on.sg-t-warning { background: var(--color-warning); color: var(--color-on-warning); }
+.sg-on.sg-t-danger { background: var(--color-danger); color: var(--color-on-accent); }
+.sg-on.sg-t-info { background: var(--color-info); color: var(--color-on-accent); }
+.sg-on:disabled { color: inherit; opacity: 0.85; }
+@media (min-width: 1024px) { .sg-short { display: none; } .sg-full { display: inline; } .sg-opt { padding: 0 var(--space-4); } }
+@media (max-width: 767px) { .sg-seg { width: 100%; } .sg-opt { flex: 1; min-height: 48px; } .sg-short { display: none; } .sg-full { display: inline; font-size: var(--text-xs); padding: 0; } }

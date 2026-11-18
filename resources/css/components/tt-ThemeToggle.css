@@ -1,0 +1,5 @@
+/* tt-ThemeToggle: converted from the Vue scoped styles. Classes are prefixed "tt-". */
+.tt-toggle { display: inline-flex; padding: 2px; gap: 2px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); }
+.tt-opt { display: grid; place-items: center; width: 34px; height: 34px; border: 0; border-radius: var(--radius-sm); background: transparent; color: var(--color-text-muted); }
+.tt-opt:hover:not(.tt-on) { background: var(--color-neutral-soft); color: var(--color-text); }
+.tt-opt.tt-on { background: var(--color-primary-soft); color: var(--color-success-text); }

@@ -1,0 +1,7 @@
+/* pp-ProfilePage: converted from the Vue scoped styles. Classes are prefixed "pp-". */
+.pp-pad { padding: var(--space-6); }
+.pp-root dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-5); margin: 0; }
+.pp-root dt { color: var(--color-text-muted); font-size: var(--text-xs); margin-bottom: 2px; }
+.pp-root dd { margin: 0; overflow-wrap: anywhere; }
+.pp-note { margin-top: var(--space-5); color: var(--color-text-muted); }
+.pp-pwd { margin-top: var(--space-4); max-width: 480px; display: grid; gap: var(--space-4); }

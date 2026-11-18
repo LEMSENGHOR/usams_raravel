@@ -1,0 +1,62 @@
+/* ad-DashboardPage: converted from the Vue scoped styles. Classes are prefixed "ad-". */
+.ad-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+.ad-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--space-4);
+}
+.ad-wide {
+    grid-column: 1 / -1;
+}
+.ad-pad {
+    padding: var(--space-5);
+}
+.ad-pad h2 {
+    margin-bottom: var(--space-4);
+}
+.ad-root dl {
+    display: grid;
+    gap: var(--space-3);
+    margin: 0;
+}
+.ad-root dt {
+    color: var(--color-text-muted);
+    font-size: var(--text-xs);
+}
+.ad-root dd {
+    margin: 0;
+    font-weight: var(--weight-medium);
+}
+.ad-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-3);
+}
+.ad-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.ad-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+}
+.ad-root small {
+    color: var(--color-text-muted);
+}
+@media (max-width: 480px) {
+    .ad-grid {
+        grid-template-columns: 1fr;
+    }
+}

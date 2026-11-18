@@ -1,0 +1,42 @@
+/* sf-SearchAndFilterBar: converted from the Vue scoped styles. Classes are prefixed "sf-". */
+.sf-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    align-items: center;
+    padding: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+}
+.sf-bar > * {
+    flex: 0 1 200px;
+}
+.sf-search {
+    position: relative;
+    flex: 1 1 260px;
+}
+
+
+.sf-search .bi {
+    position: absolute;
+    left: var(--space-3);
+    top: 12px;
+    color: var(--color-text-muted);
+}
+
+.sf-search svg {
+    position: absolute;
+    left: var(--space-3);
+    top: 12px;
+    color: var(--color-text-muted);
+}
+.sf-search .sf-input {
+    padding-left: 36px;
+}
+.sf-bar .sf-btn {
+    flex: 0 0 auto;
+}
+@media (max-width: 767px) {
+    .sf-bar > * {
+        flex: 1 1 100%;
+    }
+}

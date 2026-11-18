@@ -1,0 +1,9 @@
+/* ld-DashboardPage: converted from the Vue scoped styles. Classes are prefixed "ld-". */
+.ld-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6); }
+.ld-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-4); }
+.ld-pad { padding: var(--space-5); }
+.ld-pad h2 { margin-bottom: var(--space-4); }
+.ld-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); }
+.ld-list li { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); }
+.ld-root small { color: var(--color-text-muted); }
+@media (max-width: 480px) { .ld-grid { grid-template-columns: 1fr; } }

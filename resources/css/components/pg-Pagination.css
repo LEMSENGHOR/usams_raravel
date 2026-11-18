@@ -1,0 +1,4 @@
+/* pg-Pagination: converted from the Vue scoped styles. Classes are prefixed "pg-". */
+.pg-pager { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-3); padding: var(--space-3) var(--space-4); border-top: 1px solid var(--color-border); }
+.pg-info { color: var(--color-text-muted); }
+.pg-btns { display: flex; gap: var(--space-2); }

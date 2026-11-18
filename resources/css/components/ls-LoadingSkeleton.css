@@ -1,0 +1,3 @@
+/* ls-LoadingSkeleton: converted from the Vue scoped styles. Classes are prefixed "ls-". */
+.ls-skeleton { display: grid; gap: var(--space-3); padding: var(--space-4); }
+.ls-row { height: 36px; border-radius: var(--radius-sm); background: linear-gradient(90deg, var(--color-neutral-soft), var(--color-skeleton-mid), var(--color-neutral-soft)); background-size: 200% 100%; animation: ls-shimmer 1.4s linear infinite; }@keyframes ls-shimmer { to { background-position: -200% 0; } }

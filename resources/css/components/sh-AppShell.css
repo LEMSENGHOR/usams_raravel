@@ -1,0 +1,10 @@
+/* sh-AppShell: converted from the Vue scoped styles. Classes are prefixed "sh-". */
+.sh-main-wrap { margin-left: var(--sidebar-width); min-height: 100vh; transition: margin-left 0.15s ease; }
+.sh-main-wrap.sh-collapsed { margin-left: var(--sidebar-width-collapsed); }
+.sh-content { padding: var(--space-6); max-width: 1440px; margin: 0 auto; }
+.sh-skip { position: absolute; left: -999px; top: var(--space-2); z-index: 300; padding: var(--space-2) var(--space-4); background: var(--color-surface); border-radius: var(--radius-md); }
+.sh-skip:focus { left: var(--space-2); }
+@media (max-width: 767px) {
+  .sh-main-wrap, .sh-main-wrap.sh-collapsed { margin-left: 0; }
+  .sh-content { padding: var(--space-4); }
+}

@@ -1,0 +1,10 @@
+/* ch-AttendanceBarChart: converted from the Vue scoped styles. Classes are prefixed "ch-". */
+.ch-chart { margin: 0; }
+.ch-bars { display: flex; align-items: flex-end; gap: var(--space-2); height: 200px; padding-top: var(--space-2); border-bottom: 1px solid var(--color-border); }
+.ch-col { flex: 1; min-width: 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch; }
+.ch-stack { display: flex; flex-direction: column-reverse; min-height: 2px; border-radius: var(--radius-sm) var(--radius-sm) 0 0; overflow: hidden; }
+.ch-lbl { margin-top: var(--space-1); text-align: center; font-size: var(--text-xs); color: var(--color-text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; top: 22px; margin-top: -18px; }
+.ch-bars { margin-bottom: 28px; }
+.ch-legend { display: flex; flex-wrap: wrap; gap: var(--space-4); color: var(--color-text-muted); font-size: var(--text-xs); }
+.ch-legend span { display: inline-flex; align-items: center; gap: var(--space-2); }
+.ch-legend i { width: 10px; height: 10px; border-radius: 2px; }

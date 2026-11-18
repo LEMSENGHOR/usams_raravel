@@ -1,0 +1,5 @@
+/* es-EmptyState: converted from the Vue scoped styles. Classes are prefixed "es-". */
+.es-empty { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-2); padding: var(--space-12) var(--space-6); color: var(--color-text-muted); }
+.es-empty h2 { color: var(--color-text); }
+.es-empty p { max-width: 44ch; }
+.es-slot { margin-top: var(--space-3); }

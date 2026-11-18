@@ -1,0 +1,18 @@
+/* al-AuthLayout: converted from the Vue scoped styles. Classes are prefixed "al-". */
+.al-auth { min-height: 100vh; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); }
+.al-aside { background: var(--color-brand-panel); color: var(--color-on-brand); display: grid; align-items: center; padding: var(--space-12); }
+.al-aside-inner { max-width: 420px; display: grid; gap: var(--space-4); }
+.al-aside h2 { font-size: var(--text-2xl); }
+.al-aside p { opacity: 0.9; }
+.al-logo { display: grid; place-items: center; width: 48px; height: 48px; border-radius: var(--radius-md); background: rgba(255, 255, 255, 0.16); }
+.al-theme { position: absolute; top: var(--space-4); right: var(--space-4); display: flex; gap: var(--space-2); }
+.al-panel { position: relative; display: grid; place-items: center; padding: var(--space-6); }
+.al-form-wrap { width: min(420px, 100%); }
+.al-mobile-brand { display: none; align-items: center; gap: var(--space-3); margin-bottom: var(--space-6); }
+.al-mobile-brand .al-logo { width: 36px; height: 36px; background: var(--color-primary); color: var(--color-on-primary); }
+@media (max-width: 767px) {
+  .al-auth { grid-template-columns: 1fr; }
+  .al-aside { display: none; }
+  .al-mobile-brand { display: flex; }
+  .al-panel { align-items: start; padding-top: var(--space-10); }
+}

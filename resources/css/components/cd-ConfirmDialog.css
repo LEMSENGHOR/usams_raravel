@@ -1,0 +1,5 @@
+/* cd-ConfirmDialog: converted from the Vue scoped styles. Classes are prefixed "cd-". */
+.cd-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: var(--space-4); background: var(--color-scrim); }
+.cd-dialog { width: min(440px, 100%); padding: var(--space-6); display: grid; gap: var(--space-3); box-shadow: var(--shadow-lg); }
+.cd-dialog p { color: var(--color-text-muted); }
+.cd-footer { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-3); }

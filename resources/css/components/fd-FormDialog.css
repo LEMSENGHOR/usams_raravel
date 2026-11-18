@@ -1,0 +1,10 @@
+/* fd-FormDialog: converted from the Vue scoped styles. Classes are prefixed "fd-". */
+.fd-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: var(--space-4); background: var(--color-scrim); }
+.fd-dialog { width: min(560px, 100%); max-height: calc(100vh - 2rem); display: flex; flex-direction: column; box-shadow: var(--shadow-lg); }
+.fd-head, .fd-foot { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-4) var(--space-6); }
+.fd-head { border-bottom: 1px solid var(--color-border); }
+.fd-foot { border-top: 1px solid var(--color-border); justify-content: flex-end; }
+.fd-body { padding: var(--space-6); overflow-y: auto; display: grid; gap: var(--space-4); }
+.fd-x { border: 0; background: none; padding: var(--space-2); color: var(--color-text-muted); }
+.fd-banner { display: flex; gap: var(--space-2); padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--color-danger-soft); color: var(--color-danger-text); }
+.fd-spin { animation: fd-spin 0.9s linear infinite; }@keyframes fd-spin { to { transform: rotate(360deg); } }

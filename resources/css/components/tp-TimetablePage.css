@@ -1,0 +1,10 @@
+/* tp-TimetablePage: converted from the Vue scoped styles. Classes are prefixed "tp-". */
+.tp-filter { margin-bottom: var(--space-4); }
+.tp-week { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-4); align-items: start; }
+.tp-day { padding: var(--space-4); display: grid; gap: var(--space-3); }
+.tp-day h2 { font-size: var(--text-base); }
+.tp-none, .tp-muted { color: var(--color-text-muted); }
+.tp-entry { display: grid; gap: 2px; padding: var(--space-3); border-left: 3px solid var(--color-primary); background: var(--color-bg); border-radius: var(--radius-sm); }
+.tp-row { display: flex; gap: var(--space-2); margin-top: var(--space-2); }
+.tp-sm { height: 32px; padding: 0 var(--space-3); font-size: var(--text-xs); }
+.tp-empty { padding: var(--space-10); text-align: center; color: var(--color-text-muted); }

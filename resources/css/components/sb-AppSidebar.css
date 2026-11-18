@@ -1,0 +1,30 @@
+/* sb-AppSidebar: converted from the Vue scoped styles. Classes are prefixed "sb-". */
+.sb-sidebar {
+  position: fixed; inset: 0 auto 0 0; z-index: 60; width: var(--sidebar-width);
+  display: flex; flex-direction: column; background: var(--color-surface);
+  border-right: 1px solid var(--color-border); transition: width 0.15s ease, transform 0.2s ease;
+}
+.sb-sidebar.sb-collapsed { width: var(--sidebar-width-collapsed); }
+.sb-brand { height: var(--topbar-height); display: flex; align-items: center; gap: var(--space-3); padding: 0 var(--space-4); border-bottom: 1px solid var(--color-border); flex-shrink: 0; }
+.sb-logo { display: grid; place-items: center; width: 36px; height: 36px; border-radius: var(--radius-md); background: var(--color-primary); color: var(--color-on-primary); flex-shrink: 0; }
+.sb-brand-text { display: grid; line-height: 1.2; }
+.sb-brand-text small { color: var(--color-text-muted); }
+.sb-close-btn { display: none; margin-left: auto; border: 0; background: none; color: var(--color-text-muted); padding: var(--space-2); }
+.sb-scroll { flex: 1; overflow-y: auto; padding: var(--space-3) var(--space-3) var(--space-6); }
+.sb-group + .sb-group { margin-top: var(--space-4); }
+.sb-group-title { margin: 0 var(--space-3) var(--space-2); font-size: var(--text-xs); font-weight: var(--weight-semibold); color: var(--color-text-muted); }
+.sb-group-rule { border: 0; border-top: 1px solid var(--color-border); margin: var(--space-3) var(--space-2); }
+.sb-root ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.sb-link { display: flex; align-items: center; gap: var(--space-3); padding: var(--space-2) var(--space-3); min-height: 40px; border-radius: var(--radius-md); color: var(--color-text); text-decoration: none; }
+.sb-collapsed .sb-link { justify-content: center; }
+.sb-link:hover { background: var(--color-neutral-soft); text-decoration: none; }
+.sb-link.sb-active { background: var(--color-primary-soft); color: var(--color-success-text); font-weight: var(--weight-semibold); }
+.sb-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sb-scrim { position: fixed; inset: 0; z-index: 55; background: var(--color-scrim); }
+
+@media (max-width: 767px) {
+  .sb-sidebar, .sb-sidebar.sb-collapsed { width: min(300px, 85vw); transform: translateX(-100%); }
+  .sb-sidebar.sb-open { transform: translateX(0); box-shadow: var(--shadow-lg); }
+  .sb-close-btn { display: block; }
+  .sb-link { min-height: 44px; }
+}

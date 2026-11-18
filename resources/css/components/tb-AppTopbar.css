@@ -1,0 +1,20 @@
+/* tb-AppTopbar: converted from the Vue scoped styles. Classes are prefixed "tb-". */
+.tb-topbar { position: sticky; top: 0; z-index: 40; height: var(--topbar-height); display: flex; align-items: center; gap: var(--space-3); padding: 0 var(--space-6); background: var(--color-surface); border-bottom: 1px solid var(--color-border); }
+.tb-spacer { flex: 1; }
+.tb-icon-btn { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); color: var(--color-text); }
+.tb-icon-btn:hover { background: var(--color-neutral-soft); }
+.tb-user { position: relative; }
+.tb-user-btn { display: flex; align-items: center; gap: var(--space-2); border: 0; background: none; padding: var(--space-1) var(--space-2); border-radius: var(--radius-md); color: var(--color-text); }
+.tb-user-btn:hover { background: var(--color-neutral-soft); }
+.tb-avatar { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--color-primary-soft); color: var(--color-success-text); font-weight: var(--weight-semibold); }
+.tb-menu { position: absolute; right: 0; top: calc(100% + var(--space-2)); width: 260px; padding: var(--space-2); box-shadow: var(--shadow-md); }
+.tb-menu-head { display: grid; gap: var(--space-1); justify-items: start; padding: var(--space-3); border-bottom: 1px solid var(--color-border); margin-bottom: var(--space-2); }
+.tb-muted { color: var(--color-text-muted); overflow-wrap: anywhere; }
+.tb-menu-item { display: flex; align-items: center; gap: var(--space-2); width: 100%; min-height: 40px; padding: 0 var(--space-3); border: 0; background: none; border-radius: var(--radius-md); color: var(--color-text); text-align: left; }
+.tb-menu-item:hover { background: var(--color-neutral-soft); }
+.tb-mobile-only { display: none; }
+@media (max-width: 767px) {
+  .tb-topbar { padding: 0 var(--space-4); }
+  .tb-mobile-only { display: grid; }
+  .tb-desktop-only, .tb-who { display: none; }
+}
